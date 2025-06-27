@@ -48,7 +48,7 @@ const App = () => {
         logged ? <Home/> :  <Register setLogged={setLogged}/>
       }
 
-      <img src={user.photoURL} alt="" />
+      <img src={user?.photoURL} alt="" />
     </div>
   )
 }
